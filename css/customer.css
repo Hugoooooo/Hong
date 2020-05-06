@@ -1,0 +1,88 @@
+html,body {
+    font-family: '微軟正黑體', sans-serif !important;
+}
+
+/* List Page */
+.pagination {
+    width: 100%;
+    margin-top: 100px;
+    background:none;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/* footer */
+footer .subfooter{
+    padding: 5px 0;
+    background: #1c3c8b;
+    color: #fff;
+}
+footer .footer-widgets .footer-widget .inner{
+    padding-top: 0;
+}
+footer .footer-widgets{
+    padding: 0;
+}
+.footer-widget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+}
+footer .footer-widgets .footer-widget .footer-logo{
+    margin-bottom: 0;
+}
+
+
+/* ipad & mobile style */
+@media screen and (max-width: 991px){
+    /* layout */
+    .back-to-top{ 
+        right: 2vw;
+        width: 40px;
+        height: 40px;
+    }
+    /* footer */
+    footer .footer-widgets .footer-widget .contact-details{
+        width: 44vw;
+    }
+    footer .footer-widgets .footer-widget .contact-details li{
+        font-size: 2.3vw;
+        line-height: 1.5;
+    }
+    footer .footer-widgets .footer-widget{
+        margin-bottom: 0;
+        height: initial;
+    }
+    footer .footer-widgets .footer-widget .footer-logo{
+        margin-bottom: 20px;
+        width: 38vw;
+    }
+    footer .footer-widgets{ padding: 30px 0; }
+    footer .subfooter .copyrights{
+        font-size: 3vw;
+        margin: 0;
+    }
+
+}
+@media screen and (max-width: 576px){
+    /* index */
+}
+/* mobile style */
+@media screen and (max-width: 375px){
+    /* header  & footer*/
+    footer .footer-widgets .footer-widget .contact-details{
+        width: 66vw;
+    }
+    footer .footer-widgets .footer-widget .contact-details li{
+        font-size: 3.7vw;
+        line-height: 1.5;
+    }
+    footer .footer-widgets .footer-widget .footer-logo{
+        margin-bottom: 20px;
+        width: 60vw;
+    }
+    /* index */
+    
+}
