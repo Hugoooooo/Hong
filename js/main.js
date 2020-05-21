@@ -1,10 +1,3 @@
-/*=============================================================
-Template Name: Hotel Himara - Hotel HTML Template
-Author:        Eagle-Themes (Jomin Muskaj)
-Author URI:    http://eagle-themes.com
-Version:       1.1.0
-=============================================================*/
-
 (function($) {
   "use strict";
 
